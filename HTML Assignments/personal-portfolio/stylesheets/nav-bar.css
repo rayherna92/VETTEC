@@ -2,9 +2,7 @@
 
 nav {
     display: flex;
-    margin: 0px;
-    padding: 0px;
-    background-image: url(images/nav-bar-banner.jpg);
+    background-image: url(../images/nav-bar-banner.jpg);
     grid-column: span 3;
     justify-content: center;
 }

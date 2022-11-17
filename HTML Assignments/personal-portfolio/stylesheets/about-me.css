@@ -1,0 +1,80 @@
+/* This is the main stylesheet for the about me page */
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: blanchedalmond;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+}
+
+body nav {
+    margin: 0px;
+}
+
+main {
+    display: grid;
+    margin: 0px 50px;
+    grid-template-columns: 1fr 1fr;
+}
+
+main h1, p, h2 {
+    grid-column: span 2;
+    grid-row: span 1fr;
+}
+
+main h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.traveling {
+   grid-column: span 1;
+   margin-bottom: 2em;
+   padding: 0px .5em 0em .5em;
+}
+
+/* .traveling h3 {
+    background-image: url(../images/travel-banner.jpg);
+} */
+
+.traveling li {
+    padding: 0px 0px 34px 0px;
+}
+
+#el-salvador-img {
+    float: right;
+    width: 30%;
+    padding: 5px;
+}
+
+#buddha-japan-img {
+    float: right;
+    width: 22%;
+    padding: 5px;
+}
+
+#acropolis-img{
+    float:right;
+    width: 20%;
+    padding: 5px;
+}
+
+.gaming {
+    grid-column: 2/3;
+    margin-bottom: 2em;
+   padding: 0px .5em 0em .5em;
+}
+
+.anime {
+    grid-column: 1/2;
+    margin-bottom: 2em;
+    padding: 0px .5em 0em .5em;
+}
+
+.science {
+    grid-column: 2/3;
+    margin-bottom: 2em;
+    padding: 0px .5em 0em .5em;
+}
