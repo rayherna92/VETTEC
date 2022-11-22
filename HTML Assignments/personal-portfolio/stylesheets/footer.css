@@ -4,6 +4,10 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr;
     color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    /* right: 0;     */
 }
 
 footer a:visited {
